@@ -1,0 +1,81 @@
+/*Start of Header*/
+#header-nav { /*Heading*/
+  border-radius: 0;
+  border: 0;
+  background-color: #8f8f8f;
+  border-bottom: 1px solid black;
+}
+
+.navbar-header {
+	height: 75px;
+}
+
+#nav-list { 
+	margin-top: 10px;
+	padding: 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	height: 60px;
+}
+
+.navbar-brand h1 {
+	font-family: 'Indie Flower', cursive; 
+	color: #f76709;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #a03f00;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+ul.navbar-nav span { /*Navbar content*/
+	background-color: #24a4c6;
+	font-size: 1.2em;
+	text-align: center;
+	color: #ffffff;
+	width: 100%;
+	height: 1.5em;
+}
+
+ul.navbar-nav a { /*Navbar Link to paragraph body*/
+	background-color: #24a4c6;
+	padding: 0;
+
+}
+
+ul.navbar-nav a span:hover, ul.navbar-nav a span:focus { /*making the navbar items clickable*/
+  color:#f76709;
+  background-color: #ffffff;
+}
+
+ul.navbar-nav li {
+	box-sizing: border-box;
+	background-color: #ffffff;
+	margin: 1px 0 0 0;
+	padding: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar { /*navbar button formatting*/
+	border: 1px solid #ffffff;
+}
+
+#our-menu {
+	background: #ffffff;
+	width: 95%;
+}
+
+.menu-items {
+	background-color: #cccccc;
+	margin: 0 auto 25px;
+	height: 1000px;
+}
+
+
